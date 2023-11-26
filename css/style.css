@@ -1,12 +1,23 @@
+
+/*CSS GERAL*/
+
+
 *{
     margin:0;
     padding:0;
 }
 
+body{
+    font-family: Montserrat;
+    font-style: normal;
+    
+}
+
+/*------navbar------*/
 nav{
     display: flex;
 
-    width: 90.75rem;
+    width:95vw;
     height: 3.375rem;
     padding: 0rem 2.4375rem;
 
@@ -15,31 +26,23 @@ nav{
 
     flex-shrink: 0;
     background: rgba(46, 49, 146, 0.30);
+
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container{
+    
 }
 
 .homepage{
     color: #2E3192;
-
-    font-family: Montserrat;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-
-    line-height: 1.5rem; /* 100% */
-    letter-spacing: 0.025rem;
-    text-transform: lowercase;
 }
 
-.container{
-    display: flex;
-
-    width: 29.875rem;
-    height: 3.375rem;
-
-    align-items: center;
-    gap: 2.5rem;
-    flex-shrink: 0;
-}
-
-.item{
+a{
+    border: 1px solid red; 
+    width: 10vw;
+    height: 2vh;
+ 
 }
