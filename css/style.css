@@ -1,6 +1,8 @@
 
 /*CSS GERAL*/
-
+body, html{
+    overflow-x: hidden;
+}
 
 *{
     margin:0;
@@ -27,22 +29,27 @@ nav{
     flex-shrink: 0;
     background: rgba(46, 49, 146, 0.30);
 
-    font-size: 1.3rem;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 400;
 }
 
 .container{
-    
+    width: 28vw;
 }
 
 .homepage{
     color: #2E3192;
 }
 
-a{
-    border: 1px solid red; 
-    width: 10vw;
-    height: 2vh;
- 
+.item{
+    color: #ffff;
+
+    padding: 2vw;
+    position: relative;
+}
+
+.item:hover{
+    color: #2E3192;
+    background-color: #ffff;
 }
