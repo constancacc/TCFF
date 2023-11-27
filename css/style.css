@@ -18,6 +18,7 @@ body{
 /*------navbar------*/
 nav{
     display: flex;
+    position: fixed;
 
     width:95vw;
     height: 3.375rem;
@@ -54,4 +55,14 @@ p.active{
 a.item:hover{
     color: #2E3192;
     background-color: #ffff;
+}
+
+/*---main index------*/
+
+img{
+    
+
+    width: 90rem;
+    height: auto;
+    
 }
