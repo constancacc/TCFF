@@ -38,18 +38,20 @@ nav{
     width: 28vw;
 }
 
-.homepage{
+p.active{
+    display: inline;
     color: #2E3192;
 }
 
 .item{
+    text-decoration: none;
     color: #ffff;
 
     padding: 2vw;
     position: relative;
 }
 
-.item:hover{
+a.item:hover{
     color: #2E3192;
     background-color: #ffff;
 }
