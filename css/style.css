@@ -1,7 +1,7 @@
 
 /*CSS GERAL*/
 body, html{
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 *{
@@ -10,7 +10,7 @@ body, html{
 }
 
 body{
-    position: static;
+    position: relative;
   
     font-family: Montserrat;
     font-style: normal;
@@ -20,6 +20,7 @@ body{
 
 /*------navbar------*/
 nav{
+    z-index: 2;
     display: flex;
     position: fixed;
     top:0;
@@ -64,9 +65,8 @@ a.item:hover{
 /*---main index------*/
 
 .grelha{
-
 width:100vw;
-
+margin-left: 1vw;
 }
 
 .row {
@@ -108,87 +108,88 @@ width:100vw;
   padding: 0 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
+  /*border: 1px solid red;*/
   
 }
   .gutter {
-    -ms-flex-preferred-size: 4%;
-    flex-basis: 4%;
-    max-width: 4%;
+    -ms-flex-preferred-size: 5vw;
+    flex-basis: 5vw;
+    max-width: 5vw;
     
   }
   
   .col-lg-1 {
-    -ms-flex-preferred-size: 7.58%;
-    flex-basis: 7.58%;
-    max-width: 7.58%;
+    -ms-flex-preferred-size: 7.5vw;
+    flex-basis: 7.5vw;
+    max-width: 7.5vw;
     
   }
-  /*
+  
   .col-lg-2 {
-    -ms-flex-preferred-size: 16.667%;
-    flex-basis: 16.667%;
-    max-width: 16.667%;
+    -ms-flex-preferred-size: 15vw;
+    flex-basis: 15vw;
+    max-width: 15vw;
   }
   
   .col-lg-3 {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%;
+    -ms-flex-preferred-size: 22.5vw;
+    flex-basis: 22.5vw;
+    max-width: 22.5vw;
   }
   
   .col-lg-4 {
-    -ms-flex-preferred-size: 33.333%;
-    flex-basis: 33.333%;
-    max-width: 33.333%;
+    -ms-flex-preferred-size: 30vw;
+    flex-basis: 30vw;
+    max-width: 30vw;
   }
   
   .col-lg-5 {
-    -ms-flex-preferred-size: 41.667%;
-    flex-basis: 41.667%;
-    max-width: 41.667%;
+    -ms-flex-preferred-size: 37.5vw;
+    flex-basis: 37.5vw;
+    max-width: 37.5vw;
   }
-  */
+  
   .col-lg-6 {
 
-    -ms-flex-preferred-size: 45.3%;
-    flex-basis: 45.3%;
-    max-width: 45.3%;
+    -ms-flex-preferred-size: 45vw;
+    flex-basis: 45vw;
+    max-width: 45vw;
   }
-  /*
+  
   .col-lg-7 {
-    -ms-flex-preferred-size: 58.333%;
-    flex-basis: 58.333%;
-    max-width: 58.333%;
+    -ms-flex-preferred-size:52.5vw;
+    flex-basis: 52.5vw;
+    max-width: 52.5vw;
   }
   
   .col-lg-8 {
-    -ms-flex-preferred-size: 66.667%;
-    flex-basis: 66.667%;
-    max-width: 66.667%;
+    -ms-flex-preferred-size: 60vw;
+    flex-basis: 60vw;
+    max-width: 60vw;
   }
   
   .col-lg-9 {
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%;
+    -ms-flex-preferred-size: 67.5vw;
+    flex-basis: 67.5vw;
+    max-width: 67.5vw;
   }
   
   .col-lg-10 {
-    -ms-flex-preferred-size: 83.333%;
-    flex-basis: 83.333%;
-    max-width: 83.333%;
+    -ms-flex-preferred-size: 75vw;
+    flex-basis: 75vw;
+    max-width: 75vw;
   }
   
   .col-lg-11 {
-    -ms-flex-preferred-size: 91.667%;
-    flex-basis: 91.667%;
-    max-width: 91.667%;
+    -ms-flex-preferred-size: 82.5vw;
+    flex-basis: 82.5vw;
+    max-width: 82.5vw;
   }
-  */
+
   .col-lg-12 {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%;
+    -ms-flex-preferred-size:90vw;
+    flex-basis: 90vw;
+    max-width: 90vw;
   }
 
 
