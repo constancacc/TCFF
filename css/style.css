@@ -115,7 +115,7 @@ margin-left: 1vw;
 
   position: relative;
  
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   
 }
   .gutter {
@@ -265,7 +265,7 @@ margin-left: 1vw;
     padding-left: 2rem;
 
     height: 31.1875rem;
-    margin-top: 15vh;
+    margin-top: 25vh;
 
     border-radius: 1.875rem;
     background: rgba(46, 49, 146, 0.70);
@@ -300,6 +300,13 @@ margin-left: 1vw;
     position: absolute;
     right:-30vh;
     bottom:-10vh;
+  }
+
+  /* LINHA 4*/
+
+  .section{
+    width: 30vw;
+    margin-top: 10vh;
   }
 
   /* ANIMAÇÃO */
