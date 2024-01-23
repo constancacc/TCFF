@@ -5,8 +5,6 @@ function myFunction() {
 }
 function showPage() {
     document.querySelector("body").style.display = "block";
-    //document.querySelector("body").style.animation="animate 2s";
-    document.querySelector(".info").style.animation="fadeIn 2s";
-    document.querySelector("video").style.animation="fadeIn2 2s";
+    document.querySelector("body").style.animation="fadeIn 2s";
 
 }

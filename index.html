@@ -9,7 +9,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsividade -->
  
-
   <!-- Aceder ao CSS-->
   <link href="css/style.css" rel="stylesheet">
   
@@ -20,6 +19,8 @@
 </head>
 
 <body>
+
+  <!--NAV BAR -->
     <nav>
       <p class="item active"> tennis club figueira da foz</p>
 
@@ -29,7 +30,8 @@
         <a href="html/torneios.html" class="item">torneios</a>
       </span>
     </nav>
-
+    
+<!-- MAIN CONTAINER-->
     <main>
       <div class="grelha">
         <!--- LINHA 1-->
@@ -53,22 +55,28 @@
       </div>
 
         <!-- LINHA 2-->
-        <div class="row">
+        <div class="row" style="height: 100vh;">
         <div class="gutter"></div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-3">
+        <div class="col-lg-3"
+        style=" 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          ">
         <!-- brasão ténis -->
         <img src="img/logo.png" class="brasao" alt="brasao">
         </div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-7">
-          <div class="caixa_texto" style="height: 100vh"> 
-            <h1> Sobre nós </h1>
+        <div class="col-lg-7" style="padding: 0;">
+          <div class="caixa_texto"> 
 
-            <p> O Tennis Club Figueira da Foz é um clube centenário localizado na Figueira da Foz.
+            <h1 class="subtitulo"> Sobre nós </h1>
+
+            <p class="subtexto"> O Tennis Club Figueira da Foz é um clube centenário localizado na Figueira da Foz.
               O clube disponibiliza 4 campos de ténis em piso rápido e 3 campos de padel panorâmico em vidro.</p>
-
-            <p> O clube disponibiliza aluguer de campos e aulas de ténis e padel com técnicos certificados
+            
+            <p class="subtexto"> O clube disponibiliza aluguer de campos e aulas de ténis e padel com técnicos certificados
               para todos quantos queiram dar os primeiros passos nestas modalidades.</p>
           </div>
         </div>

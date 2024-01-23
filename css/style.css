@@ -85,6 +85,7 @@ margin-left: 1vw;
     flex-wrap: wrap;
     margin-right: -1rem;
     margin-left: -1rem;
+
    
   }
 
@@ -108,7 +109,10 @@ margin-left: 1vw;
   padding: 0 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  /*border: 1px solid red;*/
+
+  position: relative;
+ 
+  border: 1px solid red;
   
 }
   .gutter {
@@ -228,3 +232,30 @@ margin-left: 1vw;
 
     
   }
+
+  /*sobre nós*/
+  .caixa_texto{
+    margin-top: 30vh;
+  }
+
+  .subtitulo{
+    font-size: 2.5rem;
+    color: #2E3192;
+  }
+
+  .subtexto{
+    font-size:1.25rem;
+    margin-top: 5vh;
+  }
+
+
+  /* ANIMAÇÃO */
+
+  @keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
