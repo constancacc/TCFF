@@ -289,6 +289,19 @@ margin-left: 1vw;
     margin-top: 10vh;
   }
 
+  #img1{
+    width: 35.25rem;
+    height: 23.50288rem;
+    flex-shrink: 0;
+
+    border-radius: 1.80538rem;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    position: absolute;
+    right:-30vh;
+    bottom:-10vh;
+  }
+
   /* ANIMAÇÃO */
 
   @keyframes fadeIn{
