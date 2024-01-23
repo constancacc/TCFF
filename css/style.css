@@ -85,9 +85,12 @@ margin-left: 1vw;
     flex-wrap: wrap;
     margin-right: -1rem;
     margin-left: -1rem;
-
-   
   }
+
+  .altura{
+    height: 100vh;
+  }
+
 
   .gutter,
 .col-lg-1,
@@ -199,6 +202,7 @@ margin-left: 1vw;
 
   /*-----------main index-----------*/
 
+  /*LINHA 1*/
   .imgindex{
     width: 90rem;
     height: auto;
@@ -233,7 +237,7 @@ margin-left: 1vw;
     
   }
 
-  /*sobre nós*/
+  /*LINHA 2*/
   .caixa_texto{
     margin-top: 30vh;
   }
@@ -248,6 +252,42 @@ margin-left: 1vw;
     margin-top: 5vh;
   }
 
+  .centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* LINHA 3 */
+  .bluecontainer{
+    padding: 0 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    height: 31.1875rem;
+    margin-top: 15vh;
+
+    border-radius: 1.875rem;
+    background: rgba(46, 49, 146, 0.70);
+  }
+
+  ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .white{
+    color: white;
+  }
+
+  .subtitulo.white{
+    margin-top: 10vh;
+  }
+
+  li.subtexto:nth-child(1){
+    margin-top: 10vh;
+  }
 
   /* ANIMAÇÃO */
 
