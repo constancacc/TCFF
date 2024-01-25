@@ -115,7 +115,7 @@ margin-left: 1vw;
 
   position: relative;
  
-  border: 1px solid red;
+ 
   
 }
   .gutter {
@@ -382,7 +382,9 @@ margin-left: 1vw;
   }
   .redes-sociais{
     display: flex;
-    margin-top: 3vh;
+    
+    margin-top: 3.5vh;
+    
   }
 
   .redes-sociais img{
@@ -390,6 +392,7 @@ margin-left: 1vw;
 
   }
   .redes-sociais p{
+    margin-top: 0.75vh;
     white-space: nowrap;
   }
 
@@ -414,6 +417,13 @@ margin-left: 1vw;
     background: rgba(46, 49, 146, 0.8);
   }
 
+  .mapa{
+    width: 12.125rem;
+    height: 10.6265rem;
+    border-radius: 1.625rem;
+  }
+
+  
   /* ANIMAÇÃO */
   @keyframes fadeIn{
     0%{
