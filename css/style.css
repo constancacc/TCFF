@@ -378,15 +378,41 @@ margin-left: 1vw;
 
   /* FOOTER */
   footer{
-    display: flex;
-    width: 90rem;
-    height: 14.875rem;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
     background: #DADADA;
   }
+  .redes-sociais{
+    display: flex;
+    margin-top: 3vh;
+  }
+
+  .redes-sociais img{
+    margin-right: 1vw;
+
+  }
+  .redes-sociais p{
+    white-space: nowrap;
+  }
+
+  .footer-politica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+  }
   
+  .botao-download{
+    padding: 0.5vw 2vw;
+    border-radius: 2.5rem;
+    background: #2E3192;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botao-download:hover{
+    background: rgba(46, 49, 146, 0.8);
+  }
 
   /* ANIMAÇÃO */
   @keyframes fadeIn{
