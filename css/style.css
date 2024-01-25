@@ -115,7 +115,7 @@ margin-left: 1vw;
 
   position: relative;
  
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   
 }
   .gutter {
@@ -336,8 +336,40 @@ margin-left: 1vw;
   
   }
 
-  /* ANIMAÇÃO */
+  /*LINHA 5*/
+  .slider-container{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8rem;
 
+    margin-top: 10vh;
+    
+
+    width: 86vw;
+    padding: 2vw;
+    overflow-x: auto;
+  }
+
+  .slider-item{
+    width: 13.125rem;
+    height: 21.8125rem;
+  }
+
+  .img-item{
+    width: 13.125rem;
+    height: 13.125rem;
+    flex-shrink: 0;
+
+    border-radius: 13.125rem;
+  }
+
+  .texto-centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ANIMAÇÃO */
   @keyframes fadeIn{
     0%{
         opacity: 0;
