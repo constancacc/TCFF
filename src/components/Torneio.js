@@ -22,9 +22,9 @@ function Torneio() {
   }, []);
 
   return (
-    <div>
+    <div style={{position: "relative"}}>
       {posts.map((post) => (
-        <div key={post.id} className="col-lg-10 bluecontainer" style={{ position: "relative" }}>
+        <div className="col-lg-10 bluecontainer" style={{ position: "relative", border: "1px solid white" }}>
           <h1 className="subtitulo white">{post.title}</h1>
           <h3 className="subtexto white" style={{ marginTop: "10vh" }}><i>{post.metadata.data_inicio} a {post.metadata.data_fim}</i></h3>
           <p className="subtexto white" style={{ width: "40vw" }}>
