@@ -1,23 +1,28 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 import '../css/style.css';
 
-function NavBar(){
+function NavBar() {
+  const location = useLocation();
 
-    return(
-     
+  return (
     <nav>
-      <Link id="index" to="/">
-        <p className="item active"> tennis club figueira da foz</p>
+      <Link id="index" to="/"className={`item ${location.pathname === '/' ? 'active' : ''}`}>    
+        tennis club figueira da foz
       </Link>
       <span className="container">
-        <a href="/aulas" className="item">aulas</a>
-        <a href="/servicos" className="item">serviços</a>
-        <a href="/torneios" className="item">torneios</a>
+        <Link to="/aulas" className={`item ${location.pathname === '/aulas' ? 'active' : ''}`}>
+          aulas
+        </Link>
+        <Link to="/servicos" className={`item ${location.pathname === '/servicos' ? 'active' : ''}`}>
+          serviços
+        </Link>
+        <Link to="/torneios" className={`item ${location.pathname === '/torneios' ? 'active' : ''}`}>
+          torneios
+        </Link>
       </span>
     </nav>
-
-    )
+  );
 }
 
 export default NavBar;

@@ -44,11 +44,15 @@ body, html{
       width: 28vw;
   }
   
-  p.active{
+  .item.active{
       display: inline;
       color: #2E3192;
   }
-  
+
+  .item.active:hover{
+    background-color: transparent;
+  }
+
   .item{
       text-decoration: none;
       color: #ffff;
