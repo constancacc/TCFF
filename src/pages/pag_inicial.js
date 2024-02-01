@@ -1,6 +1,7 @@
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import Torneio from '../components/Torneio.js';
+import Staff from '../components/Staff.js';
 
 import inicio from '../img/index/inicio.png';
 import brasao from '../img/index/logo.png';
@@ -99,7 +100,9 @@ function Index() {
                 <div className="col-lg-12" style={{padding:"0"}}>
                     <h1 className="subtitulo section">Staff</h1>
 
-                    <div className="slider-container">
+                    
+                        <Staff/>
+                   {/*    
                     <div className="slider-item">
                         <img src={inicio} className="img-item" alt="TCFF"/>
 
@@ -134,8 +137,9 @@ function Index() {
                         <p className="subtexto texto-centro"> Inês Figueiredo</p>
                         <p className="subtexto texto-centro"> Secretaria</p>
                     </div>
+                    */}
 
-                    </div>
+                   
 
                 </div>
                 <div className="gutter"></div>

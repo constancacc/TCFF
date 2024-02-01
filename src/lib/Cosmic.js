@@ -30,7 +30,7 @@ export async function getTorneiosBySlug(torneioSlug) {
 }
 
 // OBTER STAFF (PARA LISTA)
-export async function getAllGalleries() {
+export async function getAllStaff() {
   const data = await cosmic.objects
     .find({ type: "staff" })
     .props("id,slug,title,metadata")
