@@ -2,6 +2,8 @@ import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import Torneio from '../components/Torneio.js';
 import Staff from '../components/Staff.js';
+import Direcao from '../components/Direcao.js';
+import Patrocinadores from '../components/Patrocinadores.js';
 
 import inicio from '../img/index/inicio.png';
 import brasao from '../img/index/logo.png';
@@ -97,99 +99,24 @@ function Index() {
                 {/*LINHA 5*/}
                 <div className="row altura">
                 <div className="gutter"></div>
+
                 <div className="col-lg-12" style={{padding:"0"}}>
                     <h1 className="subtitulo section">Staff</h1>
-
-                    
                         <Staff/>
-                   {/*    
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-                    */}
-
-                   
-
                 </div>
+
                 <div className="gutter"></div>
                 </div>
 
                 {/*LINHA 6*/}
                 <div className="row altura">
                 <div className="gutter"></div>
+
                 <div className="col-lg-12" style={{padding:"0"}}>
                     <h1 className="subtitulo section">Direção</h1>
+                    <Direcao/>
+                </div> 
 
-                    <div className="slider-container">
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item" alt="TCFF"/>
-
-                        <p className="subtexto texto-centro"> Inês Figueiredo</p>
-                        <p className="subtexto texto-centro"> Secretaria</p>
-                    </div>
-
-                    </div>
-
-                </div>
                 <div className="gutter"></div>
                 </div>
 
@@ -198,30 +125,7 @@ function Index() {
                 <div className="gutter"></div>
                 <div className="col-lg-12" style={{padding:"0"}}>
                     <h1 className="subtitulo section">Patrocinadores</h1>
-
-                    <div className="slider-container">
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item2" alt="TCFF"/>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item2" alt="TCFF"/>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item2" alt="TCFF"/>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item2" alt="TCFF"/>
-                    </div>
-
-                    <div className="slider-item">
-                        <img src={inicio} className="img-item2" alt="TCFF"/>
-                    </div>
-
-                    </div>
-
+                    <Patrocinadores/>
                 </div>
                 <div className="gutter"></div>
                 </div>

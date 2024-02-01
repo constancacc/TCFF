@@ -50,3 +50,48 @@ export async function getStaffBySlug(StaffSlug) {
 
   return data.object;
 }
+
+// OBTER DIREÇÃO (PARA LISTA)
+export async function getAllDirecao() {
+  const data = await cosmic.objects
+    .find({ type: "direcao" })
+    .props("id,slug,title,metadata")
+    .depth(1);
+  return data.objects;
+}
+
+// OBTER O ELEMENTO DA DIREÇÃO CORRESPONDENTE À SLUG
+export async function getDirecaoBySlug(DirecaoSlug) {
+  const data = await cosmic.objects
+    .findOne({
+      type: "direcao",
+      slug: DirecaoSlug,
+    })
+    .props("id,type,slug,title,metadata")
+    .depth(1);
+
+  return data.object;
+}
+
+
+// OBTER PATROCINADORES (PARA LISTA)
+export async function getAllPatrocinadores() {
+  const data = await cosmic.objects
+    .find({ type: "patrocinadores" })
+    .props("id,slug,title,metadata")
+    .depth(1);
+  return data.objects;
+}
+
+// OBTER O ELEMENTO DOS PATROCINADORES CORRESPONDENTE À SLUG
+export async function getPatrocinadoresBySlug(PatrocinadoresSlug) {
+  const data = await cosmic.objects
+    .findOne({
+      type: "patrocinadores",
+      slug: PatrocinadoresSlug,
+    })
+    .props("id,type,slug,title,metadata")
+    .depth(1);
+
+  return data.object;
+}
