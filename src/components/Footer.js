@@ -69,8 +69,7 @@ function Footer(){
                 <a className="white" href={atualizacao} download>
                   Politica de funcionamento
                 </a>
-            </div>
-              
+              </div>     
             </div>
   
             <div className="col-lg-2 footer-politica" >
@@ -81,7 +80,7 @@ function Footer(){
   
             </div>
   
-            <div clas="gutter"></div>
+            <div className="gutter"></div>
           </div>
         </div>
       </footer>

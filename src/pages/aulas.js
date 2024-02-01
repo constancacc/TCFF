@@ -1,6 +1,10 @@
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 
+import tenis from '../img/aulas/tenis.JPG'
+
+import precario_tenis from '../img/documentos/escola de ténis - preçário.pdf'
+
 
 function Aulas() {
     return (
@@ -29,11 +33,20 @@ function Aulas() {
         
 
               <div className="col-lg-1"></div>
-              <div className="col-lg-4">
+              <div className="col-lg-4" style={{padding: "0"}}>
+                <img src={tenis} className="aulas_tenis section" alt="tenis"/>
 
+                <div className="botao-download" style={{marginTop: "1.5vh"}}>
+                <a className="white" href={precario_tenis} download>
+                  Preçário Escola de Ténis
+                </a>
+              </div>     
               </div>
               <div className="gutter"></div>
+
+
              </div>
+             
          </div>
          <Footer/>
       </div>

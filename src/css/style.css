@@ -119,7 +119,8 @@ body, html{
   
     position: relative;
    
-   border: 1px solid red;
+    border: 1px solid red;
+   
 
   }
     .gutter {
@@ -430,7 +431,13 @@ body, html{
   
     /*--------------AULAS------------------*/
  
+    .aulas_tenis{
+    
+  
+      
+      border-radius: 2.5rem;
 
+    }
 
     /* ANIMAÇÃO */
     @keyframes fadeIn{
