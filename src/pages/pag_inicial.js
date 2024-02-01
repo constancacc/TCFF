@@ -86,7 +86,7 @@ function Index() {
                 <div className="gutter"></div>
 
                 <div className="col-lg-1" style={{padding: "0"}}>
-                    <h1 className="subtitulo section">Torneios Ativos</h1>
+                    <h1 className="subtitulo section">Torneio Ativo</h1>
                 </div>
                
                 <div className="col-lg-10" style={{position: "relative", padding:"0"}}>

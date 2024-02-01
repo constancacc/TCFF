@@ -11,8 +11,10 @@ function Torneio() {
        //ir buscar as galerias que estão em destaque
        const torneioAtivo = fetchedPosts.filter(post => post.metadata.ativo === true);
 
-       setPosts(torneioAtivo);
-       console.log("Destaques Posts:", torneioAtivo);
+       const primeiroPostAtivo = torneioAtivo.slice(0, 1);
+       setPosts(primeiroPostAtivo);
+       
+       console.log("Destaques Posts:", primeiroPostAtivo);
       } catch (error) {
         console.error("Error fetching posts:", error);
       }
