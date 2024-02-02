@@ -466,6 +466,12 @@ body, html{
   right:8vw;
 }
 
+#mapa{
+  display: flex;
+
+  width: 90vw;
+}
+
     /* ANIMAÇÃO */
     @keyframes fadeIn{
       0%{

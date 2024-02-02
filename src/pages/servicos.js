@@ -1,10 +1,12 @@
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 
-import precario from '../img/documentos/PRECÁRIO.pdf'
-import atualizacao from '../img/documentos/Atualização da Politica de Funcionamento do TCFF.pdf'
-import atencao from '../img/servicos/atencao.svg'
-import img1 from '../img/servicos/servicos1.png'
+import precario from '../img/documentos/PRECÁRIO.pdf';
+import atualizacao from '../img/documentos/Atualização da Politica de Funcionamento do TCFF.pdf';
+
+import atencao from '../img/servicos/atencao.svg';
+import img1 from '../img/servicos/servicos1.png';
+import mapa from '../img/servicos/mapa.png';
 
 function Servicos() {
     return (
@@ -47,6 +49,13 @@ function Servicos() {
                     </a>
               </div>
 
+            </div>
+            <div className="gutter"></div>
+          </div>
+          <div className="row">
+            <div className="gutter"></div>
+            <div className="col-lg-12" style={{padding: "0"}}>
+              <img id="mapa" src={mapa} alt="mapa_campos"/>
             </div>
             <div className="gutter"></div>
           </div>
