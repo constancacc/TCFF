@@ -248,6 +248,7 @@ body, html{
     }
   
     .subtitulo{
+      font-weight: 500;
       font-size: 2.5rem;
       color: #2E3192;
     }
@@ -432,12 +433,13 @@ body, html{
     /*--------------AULAS------------------*/
  
     .aulas_tenis{
-    
-  
-      
       border-radius: 2.5rem;
-
     }
+    .botao_aulas{
+      height: 3rem;
+      margin-top: 5vh;
+    }
+
 
     /* ANIMAÇÃO */
     @keyframes fadeIn{
