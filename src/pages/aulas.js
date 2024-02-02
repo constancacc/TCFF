@@ -40,7 +40,7 @@ function Aulas() {
 
                 <div className="botao-download botao_aulas">
                   <a className="white" href={precario_tenis} download>
-                    Preçário Escola de Ténis
+                    Preçário de Ténis
                   </a>
                 </div>
 
@@ -48,7 +48,7 @@ function Aulas() {
               <div className="gutter"></div>
              </div>
 
-             <div className="row" style={{marginTop: "20vh"}}>
+             <div className="row" style={{marginTop: "20vh", marginBottom: "20vh"}}>
                 <div className="gutter"></div>
                 <div className="col-lg-4" style={{padding: "0"}}>
                   <img src={padel} className="aulas_tenis section" style={{marginTop: "0"}} alt="tenis"/>
@@ -70,36 +70,12 @@ function Aulas() {
 
                   <div className="botao-download botao_aulas" style={{width: "27.5rem"}}>
                     <a className="white" href={precario_padel} download>
-                      Preçário Escola de Padel
+                      Preçário de Padel
                     </a>
                   </div>
 
                 </div>
                 <div className="gutter"></div>
-             </div>
-             <div className="row"  style={{marginTop: "20vh", marginBottom: "20vh"}}>
-              <div className="gutter"></div>
-              <div className="col-lg-4" style={{padding: "0"}}>
-                <h1 className="subtitulo section">Aulas a vulso</h1>
-
-                <div className="botao-download botao_aulas">
-                    <a className="white" href={precario_padel} download>
-                      Preçário Aulas a Vulso
-                    </a>
-                </div>
-              </div>
-              <div className="col-lg-4"></div>
-              <div className="col-lg-4" style={{padding: "0"}}>
-                <h1 className="subtitulo section" style={{textAlign: "end"}}>Aulas Pack</h1>
-
-                <div className="botao-download botao_aulas">
-                    <a className="white" href={precario_padel} download>
-                      Preçário Aulas Pack
-                    </a>
-                </div>
-              </div>
-              
-              <div className="gutter"></div>
              </div>
          </div>
          <Footer/>
