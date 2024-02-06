@@ -41,7 +41,7 @@ function Servicos() {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5" style={{padding: "0"}}>
-              <img className="section" src={img1} alt="servicos1" style={{width: "37.5vw"}} />
+              <img className="section" src={img1} alt="servicos1" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
 
               <div className="botao-download botao_aulas">
                     <a className="white" href={precario} download>
@@ -55,7 +55,29 @@ function Servicos() {
           <div className="row">
             <div className="gutter"></div>
             <div className="col-lg-12" style={{padding: "0"}}>
-              <img id="mapa" src={mapa} alt="mapa_campos"/>
+              <img id="mapa" src={mapa} alt="mapa_campos" style={{borderRadius: "2.5rem"}}/>
+            </div>
+            <div className="gutter"></div>
+          </div>
+          <div className="row altura" style={{marginTop: "5vh"}}>
+            <div className="gutter"></div>
+            <div className="col-lg-6">
+              <h1 className="subtitulo section">Balneários</h1>
+
+              <p className="subtexto">Os Balneários estão situados ao lado da secretaria e <strong>todos os nossos atletas</strong> podem usufruir deles.</p>
+              <p className="subtexto">Equipados com <strong>chuveiros</strong>, <strong>cabides</strong> e <strong>casas de banho</strong>.</p>
+             
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5" style={{padding: "0"}}>
+              <img className="section" src={img1} alt="servicos1" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
+
+              <div className="botao-download botao_aulas">
+                    <a className="white" href={precario} download>
+                      Preçário de Aluger de Campos
+                    </a>
+              </div>
+
             </div>
             <div className="gutter"></div>
           </div>
