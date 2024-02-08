@@ -98,16 +98,16 @@ function Servicos() {
             <div className="col-lg-1"></div>
             <div className="col-lg-6" style={{padding:0}}>
               <h1 className="subtitulo section">Ginásio</h1>
-              <p className="subtexto">A última novidade do nosso clube!</p>
-              <p className="subtexto">Este ginásio, além do seu espaço amplo, possui uma passadeira, elíptica e bicicleta.
-              Temos, também, uma escolha variada de pesos e instrumentos para alcançar a sua condição física de sonho.</p>
-              <p className="subtexto">Para usufruir torne-se sócio ou inscreva-se numa das nossas escolas!</p>
+              <p className="subtexto">A última <strong>novidade</strong> do nosso clube!</p>
+              <p className="subtexto">Este ginásio, além do seu espaço amplo, possui uma <strong>passadeira, elíptica e bicicleta</strong>.
+              Temos, também, uma escolha variada de <strong>pesos</strong> e instrumentos para alcançar a sua condição física de sonho.</p>
+              <p className="subtexto">Para usufruir torne-se <strong>sócio</strong> ou inscreva-se numa das nossas <strong>escolas</strong>!</p>
               <img src={ginasio3} alt="ginasio" style={{marginTop: "8vh", width: "45vw", borderRadius: "1.31238rem"}} />
             </div>
             <div className="gutter"></div>
           </div>
           <div className="row altura">
-            
+
           </div>
          </div>
          <Footer/>
