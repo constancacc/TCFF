@@ -4,7 +4,7 @@ import Footer from '../components/Footer.js';
 import tenis from '../img/aulas/tenis.JPG'
 import padel from '../img/aulas/padel.JPG'
 
-import precario_tenis from '../img/documentos/escola de ténis - preçário.pdf'
+import precario_tenis from '../img/documentos/escolatenis_precario.pdf'
 import precario_padel from '../img/documentos/Preçario padel.1.pdf'
 
 
