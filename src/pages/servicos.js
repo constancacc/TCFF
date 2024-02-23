@@ -12,6 +12,7 @@ import balneario from '../img/servicos/balneario.jpeg';
 import ginasio1 from '../img/servicos/ginasio1.png'; 
 import ginasio2 from '../img/servicos/ginasio2.png'; 
 import ginasio3 from '../img/servicos/ginasio3.png';
+import socios from '../img/servicos/socios.png';
 
 function Servicos() {
     return (
@@ -83,7 +84,7 @@ function Servicos() {
             <div className="gutter"></div>
           </div>
 
-          <div className="row altura">
+          <div className="row">
             <div className="gutter"></div>
             <div className="col-lg-5" style={{padding:0}}>
               <img className="section" src={ginasio1} alt="ginasio" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
@@ -106,9 +107,25 @@ function Servicos() {
             </div>
             <div className="gutter"></div>
           </div>
-          <div className="row altura">
+          
+          <div className="row" style={{marginBottom: "20vh", marginTop: "20vh"}}>
+            <div className="gutter"></div>
+            <div className="col-lg-6">
+              <h1 className="subtitulo section">Sócios</h1>
 
+              <p className="subtexto">Ao se tornar sócio tem não só <strong>descontos</strong> em reservas de campos e aulas de ténis e padel,
+              como <strong>acesso à sala social</strong>, a <strong>utilização do nosso ginásio</strong> utilização imitada do nosso ginásio e, também a possibilidade de ser convidado
+              para eventos exclusivos.</p>
+              <p className="subtexto">Para realizar a sua ficha de sócio tem que se dirigir à <strong>secretaria.</strong></p>
+             
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5" style={{padding: "0"}}>
+            <img className="section" src={socios} alt="socios"  style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
+            </div>
+            <div className="gutter"></div>
           </div>
+
          </div>
          <Footer/>
       </div>
