@@ -126,6 +126,22 @@ function Servicos() {
             <div className="gutter"></div>
           </div>
 
+          <div className="row altura">
+            <div className="gutter"></div>
+            <div className="col-lg-7" style={{padding: "0"}}>
+              <h1 className="subtitulo section">Secretaria</h1>
+
+              <p className="subtexto">Segunda a Sexta: 10h - 12h | 15h - 20h</p>
+              <p className="subtexto" style={{marginTop: "0vh"}}>Sábado: 9h30 - 13h</p>
+              <p className="subtexto"> Na secretaria encontrará todo o tipo de informação que precisa de saber sobre o clube. </p>
+              <p className="subtexto"> É aqui que conseguirá realizar todo o tipo de pagamentos e inscrições que pretender, assim como poderá tratar de encordoar a sua raquete! </p>
+
+            </div>
+            
+            <div className="col-lg-5" style={{padding: "0"}}>
+            </div>
+            <div className="gutter"></div>
+          </div>
          </div>
          <Footer/>
       </div>
