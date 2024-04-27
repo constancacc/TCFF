@@ -1,10 +1,31 @@
 import { useEffect, useState } from "react";
 import { getAllPatrocinadores } from '../lib/Cosmic.js';
 
+/*slider*/
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import MagicSliderDots from 'react-magic-slider-dots';
+import 'react-magic-slider-dots/dist/magic-dots.css';
+
 import '../css/style.css';
 
 function Patrocinadores() {
   const [posts, setPosts] = useState([]);
+
+  const settings = {
+    dots: posts.length > 4, // Mostra os dots apenas se houver mais de 4 elementos na lista
+    arrows: true,
+    infinite: false,
+    speed: 500,
+    variableWidth: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    appendDots: dots => {
+      return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
+    }
+  };
 
   useEffect(() => {
     async function fetchData() {
@@ -21,14 +42,14 @@ function Patrocinadores() {
   }, []);
 
   return (
-    <div className="slider-container">
+    <Slider {...settings} className="slider-container">
       {posts.map((post) => (
         <div className="slider-item">
-            <img src={post.metadata.logo.url} className="img-item2" alt="TCFF"/>
+            <img src={post.metadata.logo.url} className="img-item2" alt="TCFF"  style={{border: "2px solid blue"}}/>
          </div>
 
       ))}
-    </div>
+    </Slider>
   );
 }
 

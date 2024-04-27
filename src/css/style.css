@@ -1,5 +1,21 @@
 
 /*CSS GERAL*/
+body {
+  overflow-y: scroll;
+}
+
+/* Oculta a barra de rolagem vertical */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Para navegadores baseados no WebKit (como Chrome e Safari) */
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Cor do indicador da barra de rolagem */
+}
+
+
 body, html{
     overflow-x: hidden;
   }
@@ -349,19 +365,18 @@ body, html{
       gap: 8rem;
   
       margin-top: 10vh;
-      
-  
-      width: 86vw;
+    
       padding: 2vw;
-      overflow-x: auto;
     }
-  
+    
     .slider-item{
-      width: 13.125rem;
+      width: 13.125rem !important;
       height: 21.8125rem;
     }
-  
+    
     .img-item{
+      display: flex;
+
       width: 13.125rem;
       height: 13.125rem;
       flex-shrink: 0;
