@@ -19,7 +19,7 @@ function Footer(){
             <div className="gutter"></div>
   
             <div className="col-lg-2">
-              <img style={{marginTop: "1vw"}} src={brasao} className="brasao" alt="brasao"/>
+              <img style={{marginTop: "3vw",marginLeft: "3vw", width: "6rem"}} src={brasao} alt="brasao"/>
             </div>
   
             <div className="col-lg-2">

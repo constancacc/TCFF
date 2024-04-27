@@ -1,5 +1,5 @@
 
-/*CSS GERAL*/
+/*remover scroll bar*/
 body {
   overflow-y: scroll;
 }
@@ -15,7 +15,7 @@ body {
   background: transparent; /* Cor do indicador da barra de rolagem */
 }
 
-
+/*CSS GERAL*/
 body, html{
     overflow-x: hidden;
   }
@@ -400,12 +400,11 @@ body, html{
     /* FOOTER */
     footer{
       background: #DADADA;
+      height: 13rem;
     }
     .redes-sociais{
       display: flex;
-      
       margin-top: 3.5vh;
-      
     }
   
     .redes-sociais img{
@@ -495,4 +494,5 @@ body, html{
           opacity: 1;
       }
   }
+
 
