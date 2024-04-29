@@ -3,8 +3,7 @@ import { getAllDirecao } from '../lib/Cosmic.js';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MagicSliderDots from 'react-magic-slider-dots';
-import 'react-magic-slider-dots/dist/magic-dots.css';
+
 import '../css/style.css';
 
 function Direcao() {
@@ -18,9 +17,6 @@ function Direcao() {
     variableWidth: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    appendDots: dots => {
-      return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
-    }
   };
 
   useEffect(() => {
