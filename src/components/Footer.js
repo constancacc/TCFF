@@ -3,6 +3,7 @@ import brasao from '../img/index/logo.png';
 
 import phone from '../img/footer/Phone.svg';
 import mail from '../img/footer/Mail.svg';
+
 import WhatsApp from '../img/footer/WhatsApp.svg';
 import Instagram from '../img/footer/Instagram.svg';
 import FB from '../img/footer/Social_icons_black.svg';
