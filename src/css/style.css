@@ -358,7 +358,7 @@ body, html{
       
     }
   
-    /*LINHA 5*/
+    /*LINHA 5 — SLIDER*/
     .slider-container{
       display: inline-flex;
       align-items:center;
@@ -389,12 +389,21 @@ body, html{
       align-items: center;
       justify-content: center;
     }
-  
+    
+    /*dots*/
+    .slick-dots li button:before {
+      font-size: 10px !important;
+    }
+
+    .slick-dots li.slick-active button:before {
+      color:#2E3192 !important;
+    }
     /*LINHA 7*/
     .img-item2{
       width: 13.125rem;
       height: 13.125rem;
       flex-shrink: 0;
+      
     }
   
     /* FOOTER */
