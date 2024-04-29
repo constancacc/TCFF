@@ -39,7 +39,7 @@ function Patrocinadores() {
     <Slider {...settings} className="slider-container">
       {posts.map((post) => (
         <div className="slider-item">
-            <img src={post.metadata.logo.url} className="img-item2" alt="TCFF"  style={{border: "2px solid blue"}}/>
+            <img src={post.metadata.logo.url} className="img-item2" alt="TCFF"  style={{border: "2px solid #2E3192", borderRadius: "1.875rem"}}/>
          </div>
 
       ))}
