@@ -32,13 +32,7 @@ body, html{
       font-style: normal;
       font-weight: 400;
       
-  }
-
-
-/*------------------ DESKTOP -----------------------------------------------------*/
-@media only screen and (min-width: 1200px) {
-    /* Adicione aqui seus estilos específicos para telas grandes, como desktops */
-  
+  }  
   
   /*------navbar------*/
   nav{
@@ -89,7 +83,7 @@ body, html{
       cursor: pointer;
   }
   
-  /*---main index------*/
+  /*---GRELHA------*/
   .grelha{
   width:100vw;
   margin-left: 1vw;
@@ -140,7 +134,7 @@ body, html{
     padding-left: 1rem;
   
     position: relative;  
-    border: 1px solid red;
+   /* border: 1px solid red;*/
   }
     .gutter {
       -ms-flex-preferred-size: 5vw;
@@ -224,9 +218,9 @@ body, html{
     }
   
   
-    /*-----------main index-----------*/
+    /*-----------PÁGINA INICIAL-----------*/
   
-    /*LINHA 1*/
+    /*TEXTO INTRODUTÓRIO*/
     .imgindex{
       position: absolute;
       width: 111vw;
@@ -262,7 +256,7 @@ body, html{
       
     }
   
-    /*LINHA 2*/
+    /*CONTEXTO*/
     .caixa_texto{
       margin-top: 30vh;
     }
@@ -286,7 +280,7 @@ body, html{
       justify-content: center;
     }
   
-    /* LINHA 3 */
+    /* SOCIOS */
     .bluecontainer{
       padding: 0 2rem;
       padding-right: 2rem;
@@ -329,7 +323,7 @@ body, html{
       bottom:-10vh;
     }
   
-    /* LINHA 4*/
+    /* TORNEIO ATIVO*/
   
     .section{
       width: 30vw;
@@ -363,7 +357,7 @@ body, html{
       
     }
   
-    /*LINHA 5 — SLIDER*/
+    /*SLIDER — STAFF + DIREÇÃO*/
     .slider-container{
       display: inline-flex;
       align-items:center;
@@ -407,7 +401,7 @@ body, html{
     .slick-dots li.slick-active button:before {
       color:#2E3192 !important;
     }
-    /*LINHA 7*/
+    /*PATROCINADORES*/
     .img-item2{
       width: 13.125rem;
       height: 13.125rem;
@@ -415,7 +409,7 @@ body, html{
       
     }
   
-    /* FOOTER */
+    /*----------- FOOTER ------------------*/
     footer{
       background: #DADADA;
       height: 13rem;
@@ -435,8 +429,7 @@ body, html{
         vertical-align: middle;
         margin-right: 1rem;
     }
-    
-    /* Estilo para o parágrafo dentro do link */
+   
     .redes-sociais p {
         display: inline; 
     }
@@ -468,7 +461,7 @@ body, html{
       border-radius: 1.625rem;
     }
   
-/*------------------- Aulas ----------------*/
+/*------------------- AULAS ----------------*/
  
     .aulas_tenis{
       border-radius: 2.5rem;
@@ -478,7 +471,7 @@ body, html{
       margin-top: 5vh;
     }
 
-/*------------------- Serviços ----------------*/
+/*------------------- SERVIÇOS ----------------*/
 .botao_politica{
 
   width: 20.0625rem;
@@ -509,5 +502,28 @@ body, html{
 
   width: 90vw;
 }
+
+/*------------------ DESKTOPS -----------------------------------------*/
+@media only screen and (min-width: 2000px) {
+  nav{
+    height: 5rem;
+  }
+
+  .subtitulo{
+    font-size: 5rem;
+  }
+
+  .subtexto{
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .brasao{
+    width: 20rem;
+  }
+
+  .bluecontainer{
+    height: 55rem;
+  }
 
 }

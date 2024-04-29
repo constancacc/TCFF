@@ -15,9 +15,11 @@ function Index() {
         <NavBar />
 
         <main>
+            {/*IMAGEM INICIAL */}
         <img src={inicio} style={{marginLeft: "-1vw"}} className="imgindex" alt="TCFF"/>
             <div className="grelha">
-            
+
+            {/*frase introdutória*/}
             <div className="row altura">
                 <div className="gutter">
                 
@@ -37,8 +39,8 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-               {/* LINHA 2 */}
-                <div className="row altura" style={{height: "100vh"}}>
+               {/* Contexto*/}
+                <div className="row altura">
                 <div className="gutter"></div>
                 <div className="col-lg-1"></div>
                 <div className="col-lg-3 centrar">
@@ -62,7 +64,7 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-                {/*LINHA 3*/}
+                {/* Sócios */}
                 <div className="row altura">
                 <div className="gutter"></div>
                 <div className="col-lg-1"></div>
@@ -82,7 +84,7 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-                {/*LINHA 4*/}
+                {/*Torneio Ativo*/}
                 <div className="row altura">
                 <div className="gutter"></div>
 
@@ -97,7 +99,7 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-                {/*LINHA 5*/}
+                {/*Staff*/}
                 <div className="row altura">
                 <div className="gutter"></div>
 
@@ -109,7 +111,7 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-                {/*LINHA 6*/}
+                {/*Direção*/}
                 <div className="row altura">
                 <div className="gutter"></div>
 
@@ -121,7 +123,7 @@ function Index() {
                 <div className="gutter"></div>
                 </div>
 
-                {/*LINHA 7*/}
+                {/*Patrocinadores*/}
                 <div className="row altura">
                 <div className="gutter"></div>
                 <div className="col-lg-12" style={{padding:"0"}}>
