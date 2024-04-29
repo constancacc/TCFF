@@ -1,0 +1,9 @@
+.page {
+    opacity: 0; /* Define a opacidade inicial do elemento */
+    transition: opacity 0.5s ease; /* Adiciona uma transição de opacidade suave */
+  }
+  
+  .page.fade-in {
+    opacity: 1; /* Define a opacidade final do elemento durante a transição */
+  }
+  

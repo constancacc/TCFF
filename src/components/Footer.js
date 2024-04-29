@@ -25,41 +25,53 @@ function Footer(){
   
             <div className="col-lg-2">
               <div className="contactos">
-  
+
                 <div className="redes-sociais">
-                  <img src={phone} alt="phone"/>
-                  <p>914 837 633<br/>233 422 287</p>
+                  <a style={{cursor: "default"}}>
+                    <img src={phone} alt="phone"/>
+                    <p>233 422 287 </p>
+                  </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <img src={mail}  alt="mail"/>
-                  <p>geral@tcff.pt</p>
+                  <a href="mailto:geral@tcff.com">
+                    <img src={mail}  alt="mail"/>
+                    <p>geral@tcff.pt</p>
+                  </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <img src={WhatsApp}  alt="wapp"/>
-                  <p>+351 914 837 633</p>
+                  <a href="https://wa.me/351914837633" target="_blank">
+                    <img src={WhatsApp}  alt="wapp"/>
+                    <p>+351 914 837 633</p>
+                  </a>
                 </div>
   
               </div>
             </div>
   
-            <div className="col-lg-3" style={{marginTop: "1vh"}}>
+            <div className="col-lg-3" style={{padding: "0"}}>
               <div className="contactos">
   
                 <div className="redes-sociais">
-                  <img src={Instagram}  alt="insta"/>
-                  <p>tennisclubfigueiradafoz1917</p>
+                  <a href="https://www.instagram.com/tennisclubdafigueiradafoz1917/" target="_blank">
+                    <img src={Instagram}  alt="insta"/>
+                    <p>tennisclubfigueiradafoz1917</p>
+                  </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <img src={FB}  alt="fb"/>
-                  <p>tennis club figueira da foz</p>
+                  <a href="https://www.facebook.com/tennisclubdafigueiradafoz" target="_blank">
+                    <img src={FB}  alt="fb"/>
+                    <p>Tennis Club Figueira da Foz</p>
+                  </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <img src={Loc}  alt="loc"/>
-                  <p>Av. 25 de Abril, nº1, Figueira da Foz</p>
+                  <a style={{cursor: "default"}}>
+                    <img src={Loc}  alt="loc"/>
+                    <p>Av. 25 de Abril, nº1, Figueira da Foz</p>
+                  </a>
                 </div>
   
               </div>

@@ -15,11 +15,12 @@ function Index() {
         <NavBar />
 
         <main>
+        <img src={inicio} style={{marginLeft: "-1vw"}} className="imgindex" alt="TCFF"/>
             <div className="grelha">
             
-            <div className="row">
+            <div className="row altura">
                 <div className="gutter">
-                <img src={inicio} style={{marginLeft: "-1vw"}} className="imgindex" alt="TCFF"/>
+                
                 </div>
                 <div className="col-lg-1"></div>
                 <div className="col-lg-1"></div>
