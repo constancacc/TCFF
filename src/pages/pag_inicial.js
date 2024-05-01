@@ -32,7 +32,7 @@ function Index() {
                 <div className="col-lg-1"></div>
                 <div className="col-lg-6">
                 <div className="caixa">
-                <h1 className="titulo">vamos jogar?</h1>
+                <h1 className="titulo">Vamos Jogar?</h1>
                 <p className="texto"> se és apaixonado por ténis ou padel, aqui é o lugar certo para ti! </p>
                 </div>
                 </div>
@@ -46,7 +46,7 @@ function Index() {
                 <div className="col-lg-3 centrar">
 
                 {/* brasão ténis */}
-                <img src={brasao} className="brasao" alt="brasao"/>
+                <img src={brasao} className="brasao hidden" alt="brasao"/>
                 </div>
                 <div className="col-lg-1"></div>
                 <div className="col-lg-7" style={{padding: "0"}}>
@@ -78,7 +78,7 @@ function Index() {
                     <li className="subtexto white">Acesso aos balneários.</li>
                     </ul>
 
-                    <img src={raquetes} id="img1" alt="raquetes"/>
+                    <img src={raquetes} id="img1" className='hidden' alt="raquetes"/>
                 </div>
                 <div className="col-lg-1"></div>
                 <div className="gutter"></div>

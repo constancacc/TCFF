@@ -14,7 +14,7 @@ import atualizacao from '../img/documentos/Atualização da Politica de Funciona
 function Footer(){
 
     return(
-        <footer>
+        <footer className='hidden'>
         <div className="grelha">
           <div className="row">
             <div className="gutter"></div>

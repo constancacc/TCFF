@@ -6,19 +6,19 @@ function NavBar() {
   const location = useLocation();
 
   return (
-    <nav>
+    <nav className='hidden'>
       <Link id="index" to="/"className={`item ${location.pathname === '/' ? 'active' : ''}`}>    
-        tennis club figueira da foz
+        Tennis Club da Figueira da Foz
       </Link>
       <span className="container">
         <Link to="/aulas" className={`item ${location.pathname === '/aulas' ? 'active' : ''}`}>
-          aulas
+          Aulas
         </Link>
         <Link to="/servicos" className={`item ${location.pathname === '/servicos' ? 'active' : ''}`}>
-          serviços
+          Serviços
         </Link>
         <Link to="/torneios" className={`item ${location.pathname === '/torneios' ? 'active' : ''}`}>
-          torneios
+          Torneios
         </Link>
       </span>
     </nav>
