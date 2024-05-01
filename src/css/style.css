@@ -456,6 +456,9 @@ body, html{
     }
   
     .mapa{
+      position: relative;
+      top: 1rem;
+      
       width: 12.125rem;
       height: 10.6265rem;
       border-radius: 1.625rem;
