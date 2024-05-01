@@ -611,15 +611,26 @@ nav{
     }
 
   /*fontes*/
-  .subtitulo{
+  .subtitulo,.titulo{
     font-size: 2rem;
   }
-  .subtexto{
+  .subtexto,.texto{
     font-size: 1rem;
     line-height: 2rem;
   }
 
   .botao-download{
     font-size: 1.5rem;
+  }
+
+  /*posicionamento*/
+  .caixa_texto{
+    margin-top: 1rem;
+  }
+
+  /*inicio*/
+  .imgindex{
+    width: auto;
+    height: 100vh;
   }
 }
