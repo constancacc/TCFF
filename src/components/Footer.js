@@ -27,21 +27,21 @@ function Footer(){
               <div className="contactos">
 
                 <div className="redes-sociais">
-                  <a style={{cursor: "default"}}>
+                  <a href style={{cursor: "default"}}>
                     <img src={phone} alt="phone"/>
                     <p>233 422 287 </p>
                   </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <a href="mailto:geral@tcff.com">
+                  <a href="mailto:geral@tcff.com" >
                     <img src={mail}  alt="mail"/>
                     <p>geral@tcff.pt</p>
                   </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <a href="https://wa.me/351914837633" target="_blank">
+                  <a href="https://wa.me/351914837633" target="_blank" rel="noreferrer">
                     <img src={WhatsApp}  alt="wapp"/>
                     <p>+351 914 837 633</p>
                   </a>
@@ -54,21 +54,21 @@ function Footer(){
               <div className="contactos">
   
                 <div className="redes-sociais">
-                  <a href="https://www.instagram.com/tennisclubdafigueiradafoz1917/" target="_blank">
+                  <a href="https://www.instagram.com/tennisclubdafigueiradafoz1917/" target="_blank" rel="noreferrer">
                     <img src={Instagram}  alt="insta"/>
                     <p>tennisclubfigueiradafoz1917</p>
                   </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <a href="https://www.facebook.com/tennisclubdafigueiradafoz" target="_blank">
+                  <a href="https://www.facebook.com/tennisclubdafigueiradafoz" target="_blank" rel="noreferrer">
                     <img src={FB}  alt="fb"/>
                     <p>Tennis Club Figueira da Foz</p>
                   </a>
                 </div>
   
                 <div className="redes-sociais">
-                  <a style={{cursor: "default"}}>
+                  <a href style={{cursor: "default"}}>
                     <img src={Loc}  alt="loc"/>
                     <p>Av. 25 de Abril, nº1, Figueira da Foz</p>
                   </a>

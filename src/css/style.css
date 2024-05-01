@@ -505,25 +505,84 @@ body, html{
 
 /*------------------ DESKTOPS -----------------------------------------*/
 @media only screen and (min-width: 2000px) {
-  nav{
-    height: 5rem;
-  }
 
+/*navbar*/
+nav{
+    height: 5rem;
+}
+
+/*imagem introdutória*/
+  .imgindex{
+    width: 130vw;
+    height:auto;
+  }
+  
+/*subtitulos*/
   .subtitulo{
     font-size: 5rem;
   }
-
+/*textos dos subtitulos*/
   .subtexto{
     font-size: 2rem;
     line-height: 4rem;
+  }
+
+  /*imagem sócios*/
+  #img1{
+    width: 50rem;
+    height: auto;
+    right:-20vh;
+    bottom:-20vh;
   }
 
   .brasao{
     width: 20rem;
   }
 
+/*container dos torneios*/
   .bluecontainer{
     height: 55rem;
   }
 
+  .mais_info{
+    width: 20rem;
+    height: 5rem;
+  }
+
+  /*sliders*/
+  .slider-item{
+    width: 20rem !important;
+    height: 37rem;
+  }
+
+  .img-item,.img-item2{
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .patrocinadores.slider-item{
+    height: 23rem;
+  }
+  /*serviços*/
+  .botao_politica{
+    width: 30rem;
+  }
+  .botao-download{
+    font-size: 1.5rem;
+  }
+  /*footer*/
+  footer{
+    height: 18rem;
+    font-size: 1rem;
+  }
+
+}
+
+/*------------------ TELEMOVEIS -----------------------------------------*/
+@media only screen and (max-width: 768px) {
+  
+  /*colunas*/
+  [class^="col-lg-"],.gutter {
+    border: 1px solid red;
+    }
 }
