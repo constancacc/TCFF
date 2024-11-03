@@ -243,6 +243,7 @@ body, html{
   
       flex-direction: column;
       align-items: flex-start;
+  
     }
   
     .texto{
@@ -631,9 +632,5 @@ nav{
   .imgindex{
     width: auto;
     height: 100vh;
-  }
-
-  .caixa{
-    top: 65vh;
   }
 }
