@@ -680,7 +680,7 @@ nav{
    /*----- Ajustes para os cards dos torneios -----*/
    .bluecontainer{
     position: relative;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 1rem;
     width: 100%;
     height: 100%;
@@ -745,5 +745,8 @@ nav{
     width:90vw;
   }
 
+  .botao_politica{
+    width: 100%;
+  }
 
 }

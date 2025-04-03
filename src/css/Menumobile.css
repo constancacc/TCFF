@@ -1,0 +1,67 @@
+/*cores de fundo*/
+body {
+    background: radial-gradient(#B2B3D4, #ffff); /* De laranja para amarelo */
+    height: 100vh; /* Garante que ocupa toda a altura */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container do menu mobile */
+.mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Garante espaço entre os itens */
+    width: 100%;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+/* Ícone do menu hambúrguer (fica à esquerda) */
+.menu_hamburger {
+    position: relative;
+}
+
+/* Centralizar o logo */
+#logo_mobile {
+    position: absolute;
+    top: -0.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Centralizar o container principal na página */
+#menucontainer {
+    display: flex;
+    flex-direction: column; /* Para alinhar os elementos na vertical */
+    align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+    justify-content: center; /* Alinha o conteúdo verticalmente no centro */
+    height: 90vh; /* Garante que o container ocupe toda a altura da página */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Centralizar o conteúdo do menu */
+  #container_lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens dentro do container */
+    width: 100%;
+  }
+  
+  .row_mobile {
+    width: 100%;
+    margin: 2rem 0; /* Espaçamento entre os itens do menu */
+  }
+  
+  .position {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E3192; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 0.7px solid #2E3192;
+
+  }
+  
+
+
+

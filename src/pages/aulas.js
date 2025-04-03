@@ -55,7 +55,7 @@ function Aulas() {
                 </div>
                 <div className="col-lg-1"></div>
                 <div className="col-lg-7" style={{padding: "0"}}>
-                  <h1 className="subtitulo">Escola de Padel</h1>
+                  <h1 className="subtitulo section">Escola de Padel</h1>
 
                   <p className="subtexto"> O padel é muito mais do que apenas um desporto, é uma experiência 
                   social emocionante e desafiante.</p>

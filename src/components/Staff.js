@@ -13,7 +13,7 @@ function Staff() {
 
   const settings = {
     dots: posts.length > 4, // Mostra os dots apenas se houver mais de 4 elementos na lista
-    arrows: true,
+    arrows: false,
     infinite: false,
     speed: 500,
     variableWidth: false,
