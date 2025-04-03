@@ -522,6 +522,9 @@ body, html{
   width: 90vw;
 }
 
+h1.subtitulo.section{
+  width:90vw;
+}
 
 /*------------------ DESKTOPS -----------------------------------------*/
 @media only screen and (min-width: 2000px) {
@@ -665,6 +668,10 @@ nav{
     width: auto;
     height: 100vh;
   }
+
+  .slick-slider{
+    margin-bottom: 5rem;
+  }
 /*
   .caixa{
     top: 65vh;
@@ -728,7 +735,7 @@ nav{
     display: none;
   }
   .section{
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   .mobile_height{
     height: 10vh;

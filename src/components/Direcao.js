@@ -14,7 +14,6 @@ function Direcao() {
     arrows: true,
     infinite: false,
     speed: 500,
-    autoplay: true,
     variableWidth: false,
     slidesToShow: 4, // Número de slides visíveis por vez
     slidesToScroll: 1,
@@ -22,6 +21,7 @@ function Direcao() {
       {
         breakpoint: 768, // Para telas pequenas, como tablets e celulares
         settings: {
+          autoplay: true,
           slidesToShow: 1,  // Apenas 1 slide visível por vez
           slidesToScroll: 1, // Avança 1 por vez
           infinite: true,  // Para o carrossel ser infinito
