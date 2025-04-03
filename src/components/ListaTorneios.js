@@ -27,11 +27,15 @@ function ListaTorneios() {
           <h1 className="subtitulo white">{post.title}</h1>
           <h3 className="subtexto white"><i>{post.metadata.data_inicio} a {post.metadata.data_fim}</i></h3>
           <p className="subtexto white desktop">
-           {post.metadata.descricao}
+            {post.metadata.descricao}
           </p>
-          <a className="subtexto mais_info" href={post.metadata.link_oficial}>
-            mais informações
-          </a>
+
+          {/* Verifica se o link_oficial existe e é uma string válida */}
+          {post.metadata.link_oficial && post.metadata.link_oficial.trim().length > 0 && (
+            <a className="subtexto mais_info" href={post.metadata.link_oficial}>
+              mais informações
+            </a>
+          )}
         </div>
       ))}
     </div>
