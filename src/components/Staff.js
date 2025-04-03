@@ -11,15 +11,33 @@ import '../css/style.css';
 function Staff() {
   const [posts, setPosts] = useState([]);
 
- 
   const settings = {
     dots: posts.length > 4, // Mostra os dots apenas se houver mais de 4 elementos na lista
     arrows: true,
     infinite: false,
     speed: 500,
+    autoplay: true,
     variableWidth: false,
-    slidesToShow: 4,
+    slidesToShow: 4, // Número de slides visíveis por vez
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768, // Para telas pequenas, como tablets e celulares
+        settings: {
+          slidesToShow: 1,  // Apenas 1 slide visível por vez
+          slidesToScroll: 1, // Avança 1 por vez
+          infinite: true,  // Para o carrossel ser infinito
+          dots: true,       // Mostra os dots de navegação
+        }
+      },
+      {
+        breakpoint: 1024, // Para telas de tamanho médio (como laptops)
+        settings: {
+          slidesToShow: 3, // 3 slides por vez em telas médias
+          slidesToScroll: 1,
+        }
+      }
+    ]
   };
   
   useEffect(() => {
@@ -39,13 +57,11 @@ function Staff() {
   return (
     <Slider {...settings} className="slider-container">
       {posts.map((post) => (
-        <div className="slider-item">
-            <img src={post.metadata.foto.url} className="img-item" alt="TCFF"/>
-
-            <p className="subtexto texto-centro"> {post.title}</p>
-            <p className="subtexto texto-centro">{post.metadata.cargo}</p>
-         </div>
-
+        <div className="slider-item" key={post.id}>
+          <img src={post.metadata.foto.url} className="img-item" alt="TCFF"/>
+          <p className="subtexto texto-centro">{post.title}</p>
+          <p className="subtexto texto-centro">{post.metadata.cargo}</p>
+        </div>
       ))}
     </Slider>
   );

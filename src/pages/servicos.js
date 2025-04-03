@@ -27,11 +27,12 @@ function Servicos() {
             <div className="gutter"></div>
             <div className="col-lg-1"></div>
       
-            <div className="col-lg-10 bluecontainer" style={{marginTop: "15vh"}}>
-              <h1 className="subtitulo white"  style={{marginTop: "15vh"}}>Utilização dos Serviços</h1>
-              <p className="subtexto white"  style={{ width: "40vw" }}>Todos os nossos serviços estão sujeitos à política de funcionamento do clube.</p>
-              <a className="subtexto botao_politica" href={atualizacao} download>politica de funcionamento</a>
+            <div className="col-lg-10 bluecontainer" >
+              <h1 className="subtitulo white"  >Utilização dos Serviços</h1>
               <img className="atencao" src={atencao} alt="warning"></img>
+              <p className="subtexto white desktop" >Todos os nossos serviços estão sujeitos à política de funcionamento do clube.</p>
+              <a className="subtexto botao_politica" href={atualizacao} download>politica de funcionamento</a>
+              
             </div>
              
             <div className="col-lg-1"></div>
@@ -52,7 +53,7 @@ function Servicos() {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5" style={{padding: "0"}}>
-              <img className="section" src={img1} alt="servicos1" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
+              <img className="section imagens_servicos" src={img1} alt="servicos1"/>
 
               <div className="botao-download botao_aulas">
                     <a className="white" href={precario} download>
@@ -82,10 +83,8 @@ function Servicos() {
              
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-5" style={{padding: "0"}}>
-              <img className="section" src={balneario} alt="servicos1" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
-
-      
+            <div className="col-lg-5" style={{padding: "0", width: "100%"}}>
+              <img className="section imagens_servicos" src={balneario} alt="servicos1" />
 
             </div>
             <div className="gutter"></div>
@@ -93,25 +92,27 @@ function Servicos() {
           {/*Ginásio*/}
           <div className="row">
             <div className="gutter"></div>
-            <div className="col-lg-5" style={{padding:0}}>
-              <img className="section" src={ginasio1} alt="ginasio" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
-              <div className="botao-download botao_aulas">
-                    <a className="white" href={ginasio} download>
-                      Guia de Utilização
-                    </a>
-              </div>
-              <img className="section" src={ginasio2} alt="ginasio" style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
-              
-            </div>
-            <div className="col-lg-1"></div>
+            
             <div className="col-lg-6" style={{padding:0}}>
               <h1 className="subtitulo section">Ginásio</h1>
               <p className="subtexto">A última <strong>novidade</strong> do nosso clube!</p>
               <p className="subtexto">Este ginásio, além do seu espaço amplo, possui uma <strong>passadeira, elíptica e bicicleta</strong>.
               Temos, também, uma escolha variada de <strong>pesos</strong> e instrumentos para alcançar a sua condição física de sonho.</p>
               <p className="subtexto">Para usufruir torne-se <strong>sócio</strong> ou inscreva-se numa das nossas <strong>escolas</strong>!</p>
-              <img src={ginasio3} alt="ginasio" style={{marginTop: "8vh", width: "45vw", borderRadius: "1.31238rem"}} />
+              <img className="imagens_servicos" id="ginasio3"src={ginasio3} alt="ginasio" />
             </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5" style={{padding:0}}>
+              <img className="section imagens_servicos" src={ginasio1} alt="ginasio" />
+              <div className="botao-download botao_aulas">
+                    <a className="white" href={ginasio} download>
+                      Guia de Utilização
+                    </a>
+              </div>
+              <img className="section imagens_servicos" src={ginasio2} alt="ginasio"/>
+              
+            </div>
+            
             <div className="gutter"></div>
           </div>
           {/*Sócios*/}
@@ -128,7 +129,7 @@ function Servicos() {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5" style={{padding: "0"}}>
-            <img className="section" src={socios} alt="socios"  style={{width: "37.5vw", borderRadius: "1.31238rem"}} />
+            <img className="section imagens_servicos" src={socios} alt="socios" />
             <div className="botao-download botao_aulas">
                     <a className="white" href={socio} download>
                       Quotas de sócio
@@ -147,7 +148,7 @@ function Servicos() {
               <p className="subtexto" style={{marginTop: "0vh"}}>Sábado: 9h30 - 13h</p>
               <p className="subtexto"> Na secretaria encontrará todo o tipo de informação que precisa de saber sobre o clube. </p>
               <p className="subtexto"> É aqui que conseguirá realizar todo o tipo de pagamentos e inscrições que pretender, assim como poderá tratar de encordoar a sua raquete! </p>
-              <div className="botao-download botao_aulas" style={{width: "22.5vw"}}>
+              <div className="botao-download botao_aulas">
                   <a className="white" href={encordoacoes} download>
                       Encordoações
                   </a>

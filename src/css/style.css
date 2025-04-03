@@ -106,8 +106,12 @@ body, html{
       margin-left: -1rem;
     }
   
-    .altura{
+    /*altura das rows da grelha*/
+    .altura1{
       height: 100vh;
+    }
+    .altura{
+      height: 90vh;
     }
   
   
@@ -324,7 +328,7 @@ body, html{
     /* TORNEIO ATIVO*/
   
     .section{
-      width: 30vw;
+      width: 100%;
       margin-top: 10vh;
     }
   
@@ -353,6 +357,11 @@ body, html{
     .mais_info:hover{
       background: white;
       
+    }
+
+    /*tamanho do texto explicativo*/
+    .desktop{
+      width: 40vw;
     }
   
     /*SLIDER — STAFF + DIREÇÃO*/
@@ -494,8 +503,17 @@ body, html{
 
 .atencao{
   position: absolute;
-  top:15vh;
-  right:8vw;
+  right: 10vw;  
+}
+
+.imagens_servicos{
+  width: inherit;
+  border-radius: 1.31238rem;
+}
+
+#ginasio3{
+  position:relative;
+  top:4.8rem;
 }
 
 #mapa{
@@ -503,6 +521,7 @@ body, html{
 
   width: 90vw;
 }
+
 
 /*------------------ DESKTOPS -----------------------------------------*/
 @media only screen and (min-width: 2000px) {
@@ -571,6 +590,11 @@ nav{
   .botao-download{
     font-size: 1.5rem;
   }
+
+  .botao-download.botao_aulas{
+    width:27.5rem;
+  }
+
   /*footer*/
   footer{
     height: 18rem;
@@ -586,54 +610,133 @@ nav{
     display: none;
   }
 
-  /*grelha*/
+  /*----- grelha----- */
   .grelha > *{
     padding: 0;
     margin: 0;
-  } 
+  }
+  
   .grelha{
-    width: 90vw;
-    margin-left: 5vw;
+    width: 100vw;
+    margin-left: 0;
   }
 
-  .altura{
+  .altura1{
     height: 100vh;
+  }
+  .altura{
+    height: auto;
   }
 
   .gutter{
     display:none;
   }
+  .grelha > .row{
+    width: 100%; /* A largura da linha ocupa toda a largura da grelha */
+    display: inline-block; /* Garante que os itens se empilhem */
+  }
 
   [class^="col-lg-"] {
-    border: 1px solid red;
+    max-width:90vw; /*as colunas ficam todas com a largura de 12*/
     padding: 0;
+    margin: 0 auto;
     }
 
-  /*fontes*/
+  /*---- fontes--- */
+  .subtitulo{
+    text-align: center;
+    width: inherit;
+  }
   .subtitulo,.titulo{
     font-size: 2rem;
   }
   .subtexto,.texto{
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }
 
-  .botao-download{
-    font-size: 1.5rem;
+  /*--- sobre --- */
+  .caixa_texto{ /*tamanho da linha de texto*/
+    margin-top: 4rem;
   }
 
-  /*posicionamento*/
-  .caixa_texto{
-    margin-top: 1rem;
-  }
-
-  /*inicio*/
+  /*---- inicio----- */
   .imgindex{
     width: auto;
     height: 100vh;
   }
-
+/*
   .caixa{
     top: 65vh;
+  }*/
+
+   /*----- Ajustes para os cards dos torneios -----*/
+   .bluecontainer{
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+   }
+
+   /*titulo do torneio*/
+  .bluecontainer > .subtitulo.white {
+    font-size: 2rem; /* Ajusta o tamanho do título */
+    text-align: center; /* Centraliza o título */
+    margin-top:1rem;
   }
+
+  
+  /* Data do torneio */
+  .bluecontainer > .subtexto.white {
+    font-size: 1.1rem;
+    width: inherit;
+    text-align: center;
+    margin:2rem auto;
+  }
+
+  /* Link de mais informações */
+  .bluecontainer > .mais_info {
+    text-align: center;
+    height: 3rem;
+    margin-top: 1rem;
+    position: relative;
+    right:0;
+    top: 0;
+    width: inherit;
+    
+    text-decoration: none;
+  }
+
+  .mais_info:hover {
+    text-decoration: underline; /* Adiciona o sublinhado no hover */
+  }
+
+  /*--- serviços ---*/
+  .atencao{
+    position: relative;
+    width: 20vw;
+    left:32vw;
+    top: 1rem;
+  }
+  
+  .imagens_servicos{
+    width:90vw;
+  }
+
+  #mapa{
+    display: none;
+  }
+  .section{
+    margin-top: 2rem;
+  }
+  .mobile_height{
+    height: 10vh;
+  }
+
+  .botao-download.botao_aulas{
+    width:90vw;
+  }
+
+
 }

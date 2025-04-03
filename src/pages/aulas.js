@@ -34,7 +34,7 @@ function Aulas() {
               </div>
         
 
-              <div className="col-lg-1"></div>
+              <div className="col-lg-1 mobile_height" ></div>
               <div className="col-lg-4" style={{padding: "0"}}>
                 <img src={tenis} className="aulas_tenis section" alt="tenis"/>
 
@@ -68,7 +68,7 @@ function Aulas() {
 
                   <p className="subtexto">Para se inscrever precisamos de saber o seu <strong>contacto</strong> e o seu <strong>e-mail</strong>.</p>
 
-                  <div className="botao-download botao_aulas" style={{width: "27.5rem"}}>
+                  <div className="botao-download botao_aulas">
                     <a className="white" href={precario_padel} download>
                       Preçário de Padel
                     </a>

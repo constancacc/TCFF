@@ -20,7 +20,7 @@ function Index() {
             <div className="grelha">
 
             {/*frase introdutória*/}
-            <div className="row altura">
+            <div className="row altura1">
                 <div className="gutter">
                 
                 </div>
