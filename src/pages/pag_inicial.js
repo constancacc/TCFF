@@ -46,7 +46,7 @@ return (
                 <div className="col-lg-6">
                     <div className="caixa">
                         <h1 className="titulo">Vamos Jogar?</h1>
-                        <p className="texto">Se és apaixonado por ténis ou padel, aqui é o lugar certo para ti!</p>
+                        <p className="texto">Se é apaixonado por ténis ou padel, aqui é o lugar certo para si!</p>
                     </div>
                 </div>
                 <div className="gutter"></div>
@@ -74,7 +74,7 @@ return (
             <div className="row altura">
                 <div className="gutter"></div>
                 <div className="col-lg-10 bluecontainer" style={{marginTop: "15vh"}}>
-                    <h1 className="subtitulo white">Vantagens de te tornares Sócio</h1>
+                    <h1 className="subtitulo white">Vantagens de se tornar Sócio</h1>
                     <ul>
                         <li className="subtexto white">Acesso ao nosso novo ginásio!</li>
                         <li className="subtexto white">Descontos na reserva de campos e em aulas de ténis e padel.</li>
